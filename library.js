@@ -1,3 +1,5 @@
+//redo with class syntax 
+
 let myLibrary = [{
     "title": "I am a robot",
     'author': 'Hank Bobsley',
