@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="library_heading">LIBRARY</h1>
+
+    <table id="table">
+        <thead id="thead">
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Number of Pages</th>
+                <th>Have i red it</th>
+                
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        
+         
+        </tbody>
+    </table>
+
+    <div class="bttn_cont">
+        <button id="new_book">New Book</button>
+        <button id="close_book">Close</button>
+    </div>
+
+    
+    <form action="" id="form">
+        <label for="Title">Title: </label>
+        <input type="text" name="title"  id="title" required >
+
+        <label for="author">Author: </label>
+        <input type="text" name="author"  id="author" required>
+
+        <label for="n_of_pages">Number of pages: </label>
+        <input type="number" name="n_of_pages"  id="n_of_pages" required>
+
+        <label for="read_unread" id="read_unread_label">
+            Did you read it?:
+             <input type="checkbox" name="read_unread" id="read_unread_input"  >
+              
+            
+        </label>
+        
+
+        <button type="submit" id="submit">Submit</button>
+
+   </form>
+  
+    
+<script src="./library.js"></script>
+</body>
+</html>
